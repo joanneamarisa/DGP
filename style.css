@@ -1,0 +1,59 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  y: block;
+}
+
+body{
+  background:#f2f2e6;
+}
+
+@font-face {   
+font-family: 'Recoleta-Bold';   
+src: url(URL.ttf/.otfhttps://static1.squarespace.com/static/616a3b1a02e0572782d6bf9c/t/61982a38faf46c742bead3f5/1637362232907/Recoleta-Bold.ttf);
+font-weight:regular;
+}
+@font-face {   
+font-family: 'Latinotype - Recoleta Regular DEMO';   
+src: url(https://static1.squarespace.com/static/616a3b1a02e0572782d6bf9c/t/61983adc212cb53b52eacadd/1637366494323/Latinotype+-+Recoleta+Regular+DEMO.otf);
+font-weight:regular;
+}
+@font-face {   
+font-family: 'Inter-Regular';   
+src: url(https://static1.squarespace.com/static/616a3b1a02e0572782d6bf9c/t/61982aab43730b3e545b6be1/1637362348288/Inter-Regular.ttf);
+font-weight:bold;
+}
+@font-face {   
+font-family: 'Inter-Semibold';   
+src: url(https://static1.squarespace.com/static/616a3b1a02e0572782d6bf9c/t/61984eadfaf46c742bed9ded/1637371566540/Inter-SemiBold.ttf);
+font-weight:bold;
+}
+
+h1 {
+  color:black;
+  position: fixed;
+  left: 20%;
+  top: 15%;
+  font-size:3.6em;
+  font-family:'Latinotype - Recoleta Regular DEMO';
+  line-height:1;
+} 
+
+h2 {
+  color:black;
+  position: fixed;
+  left: 100px;
+  top: 200px;
+  font-size:1.2em;
+  font-family:'Inter-Semibold';
+}
+
+p {
+  color:black;
+  position: absolute;
+  left: 100px;
+  top: 400px;
+  font-family:'Inter-Regular';
+}
